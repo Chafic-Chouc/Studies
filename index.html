@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang='ar'>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" /> 
@@ -8,26 +8,27 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
 	<!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	
 	<title>الديوان السياسي (شفيق شقير)</title>
 </head>
 <body>
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
-	<div class="container" style="display: block; margin:auto;">
+	<div class="container fluid" style="display: block; margin:auto;">
 		<div class="navbar fixed-top" id="mynav" style="opacity: 100%; background-color: #eeaa00; color:#eeaa00;height: 15vw;">
 			<div class="row">
 				<div id="left-section" class="col-lg-4 col-6" style="width: fit-content; margin-left: 20px;">
 					<div class="dropdown">
-						<button class=" btn text-white dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Navigate</button>
-						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-							<a class="dropdown-item" href="#home">Main section</a>
-							<a class="dropdown-item" href="#AEGEE">Who am I?</a>
-							<a class="dropdown-item" href="#events">Contact</a>
-						</div>
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+						Navigate</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="index.html">Main Page</a></li>
+							<li><a class="dropdown-item" href="#">About me</a></li>
+							<li><a class="dropdown-item" href="#">Contact</a></li>
+						</ul>
 					</div>
 
 				</div>
@@ -38,12 +39,12 @@
 			<div id="midsection" class=" col-lg-4"> </div>   
 			<div id="right-section" class="col-lg-4 col-6" style="width: fit-content; margin-right: 20px;">
 				<div class="dropdown" id="langbtn">
-					<button class=" btn text-white dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Language
-					</button>
-					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-						<a class="dropdown-item" href="#">English</a>
-						<a class="dropdown-item" href="#">اَلْعَرَبِيَّةُ</a>
+					<div class="dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">اللغة</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#">العربية</a></li>
+							<li><a class="dropdown-item" href="#">English</a></li>
+						</ul>
 					</div>
 				</div>
 			</div>
@@ -53,11 +54,40 @@
 	<br>
 	<!-- NAV BAR END -->
 
-	<div class="container fluid" style=" height: 1000px;">
+	<div class="container fluid">
 		<div class="row">
-			<center><h1>مدونة شفيق شقير. <br>
+			<center><h1 id="header">مدونة شفيق شقير <br>
 			Chafic Choucair blog</h1></center>
 		</div>
+	</div>
+	<div class="row" id="section">
+		<center><h1>الديوان السياسي</h1></center>
+	</div>
+	<div class="row" id="tab">
+		<p>
+			الخميس، 21 أبريل 2016
+			<br>
+			ت<em ><b>رشيحات الرئاسة اللبنانية: من الفراغ إلى المؤتمر التأسيسي     </b></em>
+
+			<img class="fluid" src="pics/elect-2016.jpg" style="max-width: 100vw;">
+			<br>
+
+			ترشيحات الرئاسة اللبنانية: من الفراغ إلى المؤتمر التأسيسي   شفيق شقير       لم تستطع القوى اللبنانية انتخاب رئيس جديد للجمهورية منذ عام ...
+
+
+		</p>
+		
+	</div>
+
+	<div class="row" id="tab">
+		<p>
+			الثلاثاء، 23 يوليو 2013
+			<br>
+			<em><b>يا ليت السماء تمطر حبا</b></em>
+			<br>
+يا ليت السماء تمطر حبا فأزداد لك عشقا ويا ليت اﻷرض تثمر إخلاصا فأزداد منك قربا، بعد أن تملك مني العجز وفقدت الرؤية: ﻻ أملك إﻻ التمني. فليذو...
+		</p>
+		
 	</div>
 
 </body>
