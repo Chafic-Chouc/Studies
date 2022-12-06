@@ -1,0 +1,11 @@
+.container{
+	margin: auto;
+	display: block;
+	align-self: center;
+	align-items: center;
+}
+h1{
+	padding-top: 15vw;
+	display: block;
+	font-size: 1rem;
+}
