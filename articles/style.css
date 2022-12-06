@@ -9,19 +9,20 @@
 	padding-top: 15vw;
 	display: block;
 	font-size: 1rem;
+	background-color: #fa9000;
+
 }
 #section{
+	font: normal normal 25px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+	color: black;
 	display: block;
-	height: 10vw;
-	align-items: center;
-	background-color: #ef5a5a;
+	align-items: center;	
+	margin-top: 0px;
+	padding: 10px;
 
 }
-
 #tab{
-	direction: rtl; text-align: justify; unicode-bidi: embed;
 	text-align: right;
 	display: block;
-	border-bottom: solid 2px #ef5a5a;
 	border-bottom: solid 2px #ef5a5a;
 }
